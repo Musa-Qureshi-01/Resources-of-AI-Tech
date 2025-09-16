@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+
+
+# Product directory (don’t track it)
+product/
+
+# IDE/editor files (optional but good)
+.vscode/
+.idea/

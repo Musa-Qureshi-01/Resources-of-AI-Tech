@@ -1,0 +1,100 @@
+    "AI stands for Artificial Intelligence.",
+
+    "AI enables machines to mimic human intelligence.",
+
+    
+    "Machine Learning is a subset of AI.",
+
+    "AI powers recommendation systems like YouTube and Netflix.",
+
+    "Natural Language Processing (NLP) helps AI understand human language.",
+
+    "AI is used in self-driving cars.",
+
+    "AI helps in fraud detection in banking.",
+
+    "Chatbots are powered by AI.",
+
+    "AI can recognize images and objects.",
+
+    "AI enables speech-to-text applications.",
+
+    "AI is used in medical diagnosis.",
+
+    "AI improves customer support systems.",
+
+    "AI helps in stock market predictions.",
+
+    "AI is applied in robotics.",
+
+    "AI can generate human-like text.",
+
+    "AI translates languages instantly.",
+
+    "AI supports virtual assistants like Siri and Alexa.",
+
+    "AI enhances video game characters' intelligence.",
+
+    "AI helps automate repetitive tasks.",
+
+    "AI enables smart home devices.",
+
+    "AI detects spam emails.",
+
+    "AI improves search engine results.",
+
+    "AI is used in weather forecasting.",
+
+    "AI personalizes online ads.",
+
+    "AI analyzes big data quickly.",
+
+    "AI assists in scientific research.",
+
+    "AI is used in face recognition systems.",
+
+    "AI helps in predictive maintenance for machines.",
+
+    "AI is applied in supply chain optimization.",
+
+    "AI is used in autonomous drones.",
+
+    "AI supports handwriting recognition.",
+
+    "AI improves online shopping experiences.",
+
+    "AI detects cybersecurity threats.",
+
+    "AI is used in recommendation engines for music apps.",
+
+    "AI helps farmers with crop monitoring.",
+
+    "AI generates art and music.",
+
+    "AI enables real-time translation.",
+
+    "AI is applied in virtual reality systems.",
+
+    "AI can summarize long documents.",
+
+    "AI improves energy management systems.",
+
+    "AI is used in smart traffic control.",
+
+    "AI powers healthcare chatbots.",
+
+    "AI helps in disaster prediction and response.",
+
+    "AI is applied in e-learning platforms.",
+
+    "AI can analyze emotions from text and speech.",
+
+    "AI helps companies reduce costs.",
+
+    "AI supports personalized medicine.",
+
+    "AI is used in recruitment and hiring processes.",
+
+    "AI improves productivity in businesses.",
+
+    "AI continues to evolve and impact daily life."

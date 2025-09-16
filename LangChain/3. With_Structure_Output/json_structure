@@ -1,0 +1,49 @@
+from langchain_google_genai import ChatGoogleGenerativeAI
+from dotenv import load_dotenv
+
+load_dotenv()
+
+model = ChatGoogleGenerativeAI(
+    model="gemini-1.5-flash")
+
+# schema
+# There will be write json data in json format, Its lenghty So Currently I skip .
+
+review_schema = {
+  "title": "Review",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "title of the review"
+    },
+    "summary": {
+      "type": "string",
+      "description": "summary of the review"
+    },
+    "sentiment": {
+      "type": "string",
+      "description": "sentiment of the review, e.g., positive, negative, neutral"
+    }
+  },
+  "required": ["title", "sentiment"]
+}
+
+structured_model = model.with_structured_output(review_schema)
+
+result = structured_model.invoke(
+    '''
+As a developer, I see LangChain as a powerful framework that simplifies building LLM-powered applications by providing tools for chaining prompts, managing memory, and integrating with APIs.
+Its modular design makes it easy to connect different AI models and data sources without reinventing the wheel.
+While it can feel complex at first, especially with its many abstractions, it greatly speeds up development for chatbots, agents, and AI workflows.
+For production apps, its flexibility and wide ecosystem support make it a strong choice for scaling AI solutions.
+'''
+)
+# result_dict = result[0]['args']
+
+# result_dict = dict(result)
+# print(result_dict)
+# print(result_dict['title'])
+# print(result_dict['summary'])
+# print(result_dict['sentiment'])
+print(result)
